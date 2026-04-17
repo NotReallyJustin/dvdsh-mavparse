@@ -1,0 +1,29 @@
+{
+  "name": "dvdsh-mavparse",
+  "version": "1.0.0",
+  "description": "Parses a `dvdsh` MAVLink file into .csv files that can be fed into Andrew's Python Models ",
+  "homepage": "https://github.com/NotReallyJustin/dvdsh-mavparse#readme",
+  "bugs": {
+    "url": "https://github.com/NotReallyJustin/dvdsh-mavparse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotReallyJustin/dvdsh-mavparse.git"
+  },
+  "license": "MIT",
+  "author": "Justin Chen",
+  "type": "module",
+  "main": "parse.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/argparse": "^2.0.17",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "esbuild": "^0.28.0"
+  }
+}

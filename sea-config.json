@@ -1,0 +1,5 @@
+{
+    "main": "./dist/bundle.js", 
+    "output": "./bin/dvdsh-mavparse",
+    "disableExperimentalSEAWarning": true
+}
