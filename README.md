@@ -1,5 +1,8 @@
 # dvdsh-mavparse
-Parses a `dvdsh` MAVLink file into .csv files that can be fed into Andrew's Python Models, or lowkey any of our UAV detection models
+Parses a `dvdsh` MAVLink file into .csv files that can be fed into Andrew's Python Models, or lowkey any of our UAV detection models.
+
+If you use `linux x86-64` and don't feel like building it, download the ELF from <a href="https://github.com/NotReallyJustin/dvdsh-mavparse/releases/tag/v1.0.0">here</a>. <br>
+I don't intend on packaging for more architectures, but if there's enough demand for it, I'll write a Github Actions script for that.
 
 # Build Instructions
 In Linux or WSL, run:
