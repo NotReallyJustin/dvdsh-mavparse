@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ ! -d "./bin" ]; then
+    mkdir ./bin
+fi
+
 npm install
 npx tsc
 npx esbuild --bundle --platform=node --format=cjs --target=node25 --outfile=./dist/bundle.js ./dist/src/parse.js
